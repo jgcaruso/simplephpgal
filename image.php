@@ -144,6 +144,7 @@ function highlight(field) {
 
     $previous = "";
     $next = "";
+    $image_found = false;
 
     for ($i = 0; $i < count($fileArray) ; $i++)
     {
@@ -164,8 +165,13 @@ function highlight(field) {
                 $previous = $filename."?i=".$imagesFolder."/".$fileArray[($i - 1)];
                 $next = $filename."?i=".$imagesFolder."/".$fileArray[($i + 1)];
             }
-        }
 
+            $image_found = true;
+        }
+    }
+
+    if ( ! $image_found ) {
+        die('Image does not exist');
     }
 
     // create Back to Gallery link
