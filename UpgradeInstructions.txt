@@ -1,0 +1,42 @@
+Simple PHP Gallery Upgrade Instructions
+========================================
+
+
+Upgrading from Version 0.6 to 0.7
+----------------------------------
+1) Rename or save a copy of your phpGalleryConfig.php file
+2) Copy (replacing where necessary) the files from the .zip file into your gallery
+3) If you've made changes to your original phpGalleryConfig.php file, make those same changes in the new phpGalleryConfig.php file
+
+
+Upgrading from Version 0.5 to 0.6
+----------------------------------
+
+1) Rename or save a copy of your phpGalleryConfig.php file
+2) Copy (replacing where necessary the files from the .zip file into your gallery
+3) If you've made changes to your original phpGalleryConfig.php file, make those same changes in the new phpGalleryConfig.php file
+4) Choose your preferred method of image sorting (set the $sortMode variable in the phpGalleryConfig.php file):
+
+ Gallery Sort Modes
+ ------------------
+ * 1 = Alphabetic Ascending (A to Z) (Default)
+ * 2 = Alphabetic Descending (Z to A)
+ * 3 = Date Ascending (oldest to newest) (almost like creation date however it was not available. So inode metadata date is used)
+ * 4 = Date Descending (newest to oldest)
+
+
+
+
+Upgrading from Version 0.3 to 0.5
+----------------------------------
+
+1) Copy (replacing where necessary) the files from the .zip file into your gallery
+2) Update image folders:
+	a) Either edit the phpGalleryConfig.php file with your existing image and thumbs folder names
+	OR
+	b) Rename your image folders:
+		images -> phpGallery_images
+		thumbs -> phpGallery_thumbs
+3) If you've made changes to your config.php file, make those same changes in the phpGalleryConfig.php file
+
+4) ENJOY!

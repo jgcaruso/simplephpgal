@@ -1,0 +1,45 @@
+body	{
+	background: #121212;
+}
+
+DIV.phpGallery_title	{
+	color: white;
+	font: verdana;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+DIV.phpGallery_title a	{
+	color: white;
+	font-size: 15px;
+}
+
+DIV.phpGallery_footer	{
+	color: red;
+}
+
+DIV.phpGallery_footer a	{
+	color: white;
+}
+
+table.phpGallery_table	{
+	background: black;
+}
+
+table.phpGallery_table tr.phpGallery_tr	{
+	
+}
+
+table.phpGallery_table td.phpGallery_td	{
+	text-align: center;
+	background: red;
+	padding: 5px;
+}
+
+table.phpGallery_table td.phpGallery_td a	{
+
+}
+
+table.phpGallery_table td.phpGallery_td img	{
+	border: 0px;
+}

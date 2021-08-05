@@ -1,0 +1,42 @@
+body	{
+
+}
+
+DIV.phpGallery_title	{
+	font: verdana;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+DIV.phpGallery_title a	{
+	font-size: 15px;
+}
+
+DIV.phpGallery_footer	{
+
+}
+
+DIV.phpGallery_footer a	{
+
+}
+
+table.phpGallery_table	{
+
+}
+
+table.phpGallery_table tr.phpGallery_tr	{
+	
+}
+
+table.phpGallery_table td.phpGallery_td	{
+	text-align: center;
+}
+
+table.phpGallery_table td.phpGallery_td a	{
+
+}
+
+table.phpGallery_table td.phpGallery_td img	{
+	border: 2px;
+	border-style: solid;
+}
