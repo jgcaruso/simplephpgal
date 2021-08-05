@@ -3,13 +3,13 @@ body	{
 }
 
 DIV.phpGallery_title	{
-	font: verdana;
-	font-size: 50px;
-	font-weight: bold;
+    font: verdana;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 DIV.phpGallery_title a	{
-	font-size: 15px;
+    font-size: 15px;
 }
 
 DIV.phpGallery_footer	{
@@ -25,11 +25,11 @@ table.phpGallery_table	{
 }
 
 table.phpGallery_table tr.phpGallery_tr	{
-	
+
 }
 
 table.phpGallery_table td.phpGallery_td	{
-	text-align: center;
+    text-align: center;
 }
 
 table.phpGallery_table td.phpGallery_td a	{
@@ -37,6 +37,6 @@ table.phpGallery_table td.phpGallery_td a	{
 }
 
 table.phpGallery_table td.phpGallery_td img	{
-	border: 2px;
-	border-style: solid;
+    border: 2px;
+    border-style: solid;
 }

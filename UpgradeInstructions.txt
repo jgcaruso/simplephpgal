@@ -32,11 +32,11 @@ Upgrading from Version 0.3 to 0.5
 
 1) Copy (replacing where necessary) the files from the .zip file into your gallery
 2) Update image folders:
-	a) Either edit the phpGalleryConfig.php file with your existing image and thumbs folder names
-	OR
-	b) Rename your image folders:
-		images -> phpGallery_images
-		thumbs -> phpGallery_thumbs
+    a) Either edit the phpGalleryConfig.php file with your existing image and thumbs folder names
+    OR
+    b) Rename your image folders:
+        images -> phpGallery_images
+        thumbs -> phpGallery_thumbs
 3) If you've made changes to your config.php file, make those same changes in the phpGalleryConfig.php file
 
 4) ENJOY!
